@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-expenses-ts-mui/static/js/main.7d58fbd0.chunk.js",
-    "main.js.map": "/react-expenses-ts-mui/static/js/main.7d58fbd0.chunk.js.map",
+    "main.js": "/react-expenses-ts-mui/static/js/main.68628dfc.chunk.js",
+    "main.js.map": "/react-expenses-ts-mui/static/js/main.68628dfc.chunk.js.map",
     "runtime-main.js": "/react-expenses-ts-mui/static/js/runtime-main.73165ccc.js",
     "runtime-main.js.map": "/react-expenses-ts-mui/static/js/runtime-main.73165ccc.js.map",
-    "static/js/2.2d140bb5.chunk.js": "/react-expenses-ts-mui/static/js/2.2d140bb5.chunk.js",
-    "static/js/2.2d140bb5.chunk.js.map": "/react-expenses-ts-mui/static/js/2.2d140bb5.chunk.js.map",
+    "static/js/2.1bd28e36.chunk.js": "/react-expenses-ts-mui/static/js/2.1bd28e36.chunk.js",
+    "static/js/2.1bd28e36.chunk.js.map": "/react-expenses-ts-mui/static/js/2.1bd28e36.chunk.js.map",
     "index.html": "/react-expenses-ts-mui/index.html",
-    "precache-manifest.c06f4a956679d14c40c2c66c461d872b.js": "/react-expenses-ts-mui/precache-manifest.c06f4a956679d14c40c2c66c461d872b.js",
+    "precache-manifest.3974f062de1ee5021b72ccc30dcda1b5.js": "/react-expenses-ts-mui/precache-manifest.3974f062de1ee5021b72ccc30dcda1b5.js",
     "service-worker.js": "/react-expenses-ts-mui/service-worker.js",
-    "static/js/2.2d140bb5.chunk.js.LICENSE.txt": "/react-expenses-ts-mui/static/js/2.2d140bb5.chunk.js.LICENSE.txt"
+    "static/js/2.1bd28e36.chunk.js.LICENSE.txt": "/react-expenses-ts-mui/static/js/2.1bd28e36.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.73165ccc.js",
-    "static/js/2.2d140bb5.chunk.js",
-    "static/js/main.7d58fbd0.chunk.js"
+    "static/js/2.1bd28e36.chunk.js",
+    "static/js/main.68628dfc.chunk.js"
   ]
 }
