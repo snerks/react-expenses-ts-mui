@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 // import { Transaction, TransactionView } from './Transaction';
 import { GlobalContext } from '../context/GlobalContext';
-import { List, ListItem, /* ListItemIcon, */ ListItemText, Divider, Button } from '@material-ui/core';
+import { List, ListItem, /* ListItemIcon, */ ListItemText, /* Divider, */ Button } from '@material-ui/core';
 
 export const TransactionList = () => {
     const { transactions, deleteTransaction } = useContext(GlobalContext);
@@ -20,18 +20,15 @@ export const TransactionList = () => {
                 {
                     transactions.map(transaction => (
                         // <TransactionView key={transaction.id} transaction={transaction} />
-                        <>
-                            <ListItem key={transaction.id}>
-                                <ListItemText primary={transaction.text + " : " + transaction.amount} />
-                                {/* <button 
+                        <ListItem key={transaction.id}>
+                            <ListItemText primary={transaction.text + " : " + transaction.amount} />
+                            {/* <button 
                                 onClick={() => deleteTransaction && deleteTransaction(transaction.id)} className="delete-btn">x</button> */}
-                                <Button variant="contained" color="default"
-                                    onClick={() => deleteTransaction && deleteTransaction(transaction.id)}>
-                                    X
+                            <Button variant="contained" color="default"
+                                onClick={() => deleteTransaction && deleteTransaction(transaction.id)}>
+                                X
                                 </Button>
-                            </ListItem>
-                            <Divider />
-                        </>
+                        </ListItem>
                     ))
                 }
             </List>
