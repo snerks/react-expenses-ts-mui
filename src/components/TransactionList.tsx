@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import { Transaction, TransactionView } from './Transaction';
+// import { Transaction, TransactionView } from './Transaction';
 import { GlobalContext } from '../context/GlobalContext';
-import { List, ListItem, ListItemIcon, ListItemText, Divider, Button } from '@material-ui/core';
+import { List, ListItem, /* ListItemIcon, */ ListItemText, Divider, Button } from '@material-ui/core';
 
 export const TransactionList = () => {
     const { transactions, deleteTransaction } = useContext(GlobalContext);
