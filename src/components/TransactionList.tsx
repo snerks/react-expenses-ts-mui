@@ -13,14 +13,19 @@ export const TransactionList = () => {
         <>
             <h3>History</h3>
 
-            <ul className="list">
+            {/* <ul className="list">
                 {transactions.map(transaction => (<TransactionView key={transaction.id} transaction={transaction} />))}
-            </ul>
+            </ul> */}
 
             <List dense={true}>
                 {transactions.map(transaction => (
                     <ListItem key={transaction.id}>
                         <ListItemText primary={transaction.text + " : " + transaction.amount} />
+
+                        <Button variant="contained" color="default"
+                            onClick={() => deleteTransaction && deleteTransaction(transaction.id)}>
+                            X
+                        </Button>
                     </ListItem>
                 ))}
             </List>
