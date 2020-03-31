@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 // import { Transaction, TransactionView } from './Transaction';
 import { GlobalContext } from '../context/GlobalContext';
 import { List, ListItem, /* ListItemIcon, */ ListItemText, /* Divider, */ Button } from '@material-ui/core';
+import { TransactionView } from './Transaction';
 
 export const TransactionList = () => {
     const { transactions, deleteTransaction } = useContext(GlobalContext);
@@ -12,9 +13,9 @@ export const TransactionList = () => {
         <>
             <h3>History</h3>
 
-            {/* <ul className="list">
+            <ul className="list">
                 {transactions.map(transaction => (<TransactionView key={transaction.id} transaction={transaction} />))}
-            </ul> */}
+            </ul>
 
             <List component="nav" aria-label="main mailbox folders">
                 {
