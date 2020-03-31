@@ -21,7 +21,7 @@ export const TransactionList = () => {
                     transactions.map(transaction => (
                         // <TransactionView key={transaction.id} transaction={transaction} />
                         <>
-                            <ListItem button key={transaction.id}>
+                            <ListItem key={transaction.id}>
                                 <ListItemText primary={transaction.text + " : " + transaction.amount} />
                                 {/* <button 
                                 onClick={() => deleteTransaction && deleteTransaction(transaction.id)} className="delete-btn">x</button> */}
