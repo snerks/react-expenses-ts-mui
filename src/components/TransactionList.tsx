@@ -17,6 +17,14 @@ export const TransactionList = () => {
                 {transactions.map(transaction => (<TransactionView key={transaction.id} transaction={transaction} />))}
             </ul>
 
+            <List dense={true}>
+                {transactions.map(transaction => (
+                    <ListItem key={transaction.id}>
+                        <ListItemText primary={transaction.text + " : " + transaction.amount} />
+                    </ListItem>
+                ))}
+            </List>
+
             <List component="nav" aria-label="main mailbox folders">
                 {
                     transactions.map(transaction => (
