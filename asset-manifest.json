@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-expenses-ts-mui/static/js/main.68628dfc.chunk.js",
-    "main.js.map": "/react-expenses-ts-mui/static/js/main.68628dfc.chunk.js.map",
+    "main.js": "/react-expenses-ts-mui/static/js/main.1745ce26.chunk.js",
+    "main.js.map": "/react-expenses-ts-mui/static/js/main.1745ce26.chunk.js.map",
     "runtime-main.js": "/react-expenses-ts-mui/static/js/runtime-main.73165ccc.js",
     "runtime-main.js.map": "/react-expenses-ts-mui/static/js/runtime-main.73165ccc.js.map",
     "static/js/2.1bd28e36.chunk.js": "/react-expenses-ts-mui/static/js/2.1bd28e36.chunk.js",
     "static/js/2.1bd28e36.chunk.js.map": "/react-expenses-ts-mui/static/js/2.1bd28e36.chunk.js.map",
     "index.html": "/react-expenses-ts-mui/index.html",
-    "precache-manifest.3974f062de1ee5021b72ccc30dcda1b5.js": "/react-expenses-ts-mui/precache-manifest.3974f062de1ee5021b72ccc30dcda1b5.js",
+    "precache-manifest.a9b0a18ecb118c50287e50f0a15fb76a.js": "/react-expenses-ts-mui/precache-manifest.a9b0a18ecb118c50287e50f0a15fb76a.js",
     "service-worker.js": "/react-expenses-ts-mui/service-worker.js",
     "static/js/2.1bd28e36.chunk.js.LICENSE.txt": "/react-expenses-ts-mui/static/js/2.1bd28e36.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.73165ccc.js",
     "static/js/2.1bd28e36.chunk.js",
-    "static/js/main.68628dfc.chunk.js"
+    "static/js/main.1745ce26.chunk.js"
   ]
 }
